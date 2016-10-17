@@ -1,0 +1,26 @@
+body {
+	width: 100vw;
+	text-align: center;
+}
+#my-button {
+	width: 90vmin;
+	height: 90vmin;
+	margin: auto;
+	background: #ff0000;
+	border-radius: 50vmin;
+	color: white;
+	font-size: 6em;
+	border: 8px solid grey;
+	transition: all 0.1s;
+	cursor: pointer;
+}
+#my-button:active {
+	background: #dd0000;
+	color: #dddddd;
+	width: 89vh;
+	height: 89vh;
+}
+p {
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
